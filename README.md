@@ -3,7 +3,7 @@ Course Project : Human Activity Recognition Using Smartphones Dataset
 
 Introduction
 ------------
-This repository contains the the following files :
+This repository contains the following files :
 
 1. README ( the one you are readng now )
 2. Codebook - This describes the features of original dataset and how the transformation were performed as per the course project requirement.
