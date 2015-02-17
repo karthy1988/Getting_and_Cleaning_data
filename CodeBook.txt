@@ -1,13 +1,11 @@
-CodeBook for the tidy dataset
-=============================
+CodeBook : Getting and Cleaning Data Course Project
+===================================================
 
-Data source
------------
-This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+This dataset is obtained from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Feature Selection 
 -----------------
-I refer you to the README and features.txt files in the original dataset to learn more about the feature selection for this dataset. And there you will find the follow description:
+README and features.txt in the compressed file of dataset provides the information on feature of this dataset. It describes the data as follows:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -52,8 +50,11 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroMean
 * tBodyGyroJerkMean
 
-Other estimates have been removed for the purpose of this excercise.
-
 Note: features are normalized and bounded within [-1,1].
 
-The resulting variable names are of the following form: tbodyaccmeanx, which means the mean value of tBodyAcc-XYZ.
+There are some other estimates which were removed as part of transformation required by this project. After the "summarize" as used in the run_analyze.R script
+the final output has the following headers:
+
+* Descriptive_Activity_Name
+* Subject
+* 66 other variables - To make it simple,all these variable names are same as the one represented in the original dataset. The values for each variable is a mean per activity and subject.
