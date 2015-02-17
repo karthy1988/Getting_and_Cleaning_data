@@ -24,15 +24,16 @@ Script and the tidy dataset
 The script called run_analysis.R which will merge the test and training sets together.
 Prerequisites for this script:
 
-1. the UCI HAR Dataset must be extracted and..
-2. the following files should be in the working directory of the user
-	a. X_test.txt
-	b. y_test.txt
-    c. subject_test.txt
-    d. X_train.txt
-    e. y_train.txt
-    f. subject_train.txt
-    g. features.txt
+* the UCI HAR Dataset must be extracted and..
+* the following files should be in the working directory of the user
+	* X_test.txt
+	* y_test.txt
+	* subject_test.txt
+	* X_train.txt
+	* y_train.txt
+	* subject_train.txt
+	* features.txt
+* jj
 
 After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
 
