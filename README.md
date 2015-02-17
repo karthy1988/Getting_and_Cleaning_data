@@ -13,7 +13,7 @@ This repository contains the following files :
 Raw data
 --------
 
-The features (561 of them) from Human Activity Recognition Using Smartphones Dataset are unlabeled and can be found in the X_test.txt. 
+The 561 features from Human Activity Recognition Using Smartphones Dataset are unlabeled and can be found in the X_test.txt. 
 The activity labels are in the y_test.txt file.
 The test subjects are in the subject_test.txt file.
 
@@ -26,7 +26,7 @@ Prerequisites for this script:
 
 1. the UCI HAR Dataset must be extracted and..
 2. the following files should be in the working directory of the user
- a. X_test.txt
+2.1 X_test.txt
  b. y_test.txt
  c. subject_test.txt
  d. X_train.txt
