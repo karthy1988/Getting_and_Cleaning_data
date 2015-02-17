@@ -4,10 +4,11 @@ Course Project : Human Activity Recognition Using Smartphones Dataset
 Introduction
 ------------
 This repository contains the the following files :
-	a. README ( the one you are readng now )
-	b. Codebook - This describes the features of original dataset and how the transformation were performed as per the course project requirement.
-	c. run_analysis.R - This is the original R script to process the data as per requirement and produce a tidy data.
-	d. tidy_data.txt - This file contains the tidy data produced as a output from run_analysis.R script.
+
+1. README ( the one you are readng now )
+2. Codebook - This describes the features of original dataset and how the transformation were performed as per the course project requirement.
+3. run_analysis.R - This is the original R script to process the data as per requirement and produce a tidy data.
+4. tidy_data.txt - This file contains the tidy data produced as a output from run_analysis.R script.
 
 Raw data
 --------
