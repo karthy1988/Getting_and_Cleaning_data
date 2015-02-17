@@ -33,7 +33,7 @@ Prerequisites for this script:
 	* y_train.txt
 	* subject_train.txt
 	* features.txt
-* jj
+* dplyr package should be installed prior to running the script using install.packages("dplyr") command
 
 After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
 
